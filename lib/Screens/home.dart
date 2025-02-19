@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:hive/hive.dart';
 import 'package:hive_flutter/adapters.dart';
-import 'package:managment/data/listdata.dart';
 import 'package:managment/data/model/add_date.dart';
 import 'package:managment/data/utlity.dart';
 
@@ -164,7 +163,7 @@ class _HomeState extends State<Home> {
                           ),
                         ),
                         Text(
-                          'Enjelin Morgeana',
+                          'Rachit Agarwal',
                           style: TextStyle(
                             fontWeight: FontWeight.w600,
                             fontSize: 20,
