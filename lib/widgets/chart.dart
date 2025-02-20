@@ -40,14 +40,14 @@ class _ChartState extends State<Chart> {
         break;
       default:
     }
-    return Container(
+    return SizedBox(
       width: double.infinity,
       height: 300,
       child: SfCartesianChart(
         primaryXAxis: CategoryAxis(),
         series: <SplineSeries<SalesData, String>>[
           SplineSeries<SalesData, String>(
-            color: Color.fromARGB(255, 47, 125, 121),
+            color: const Color.fromARGB(255, 47, 125, 121),
             width: 3,
             dataSource: <SalesData>[
               ...List.generate(time(a!, b ? true : false).length, (index) {
